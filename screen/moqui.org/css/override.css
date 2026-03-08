@@ -13,6 +13,10 @@ ul#navigation > li > a { padding: 23px 15px 21px; }
 ul#navigation a:hover, ul#navigation .active-item > a { color: #5ba5eb; }
 #navigation { padding-top: 5px; }
 
+/* Forum link - bold and accent color */
+#navigation .nav-forum a { color: #5ba5eb; font-weight: bold; }
+#navigation .nav-forum a:hover { color: #7bb8f0; }
+
 @media (min-width: 768px) { ul#navigation > li:hover > ul { top: 70px; background: rgba(33, 44, 67, 0.9); } }
 #navigation-toggle { margin-top: 8px; }
 

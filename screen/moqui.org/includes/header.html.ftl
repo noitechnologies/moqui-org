@@ -63,8 +63,7 @@
                                     <li<#if menu_active! == "addons"> class="active-item"</#if>><a href="/addons.html">Add ons</a></li>
                                 </ul>
                             </li>
-                            <li style="background: linear-gradient(to bottom, rgb(10,115,219), rgb(67, 89, 137)); border-radius: 10px;">
-                                <a href="https://forum.moqui.org/?utm_source=moqui.org"  target="_blank" rel="noopener noreferrer">Forum</a></li>
+                            <li class="nav-forum"><a href="https://forum.moqui.org/?utm_source=moqui.org" target="_blank" rel="noopener noreferrer">Forum</a></li>
                             <li<#if menu_active! == "service"> class="active-item"</#if>><a href="/service.html">Service Providers</a></li>
                             <li>
                                 <span class="sub-nav-toggle plus"></span>
@@ -99,7 +98,7 @@
                         <a href="https://demo.moqui.org/store" target="_blank">Try POP Shop eCommerce!</a>
                     </p>
                     <p class="top-info__text pull-right small">
-                        Comments? Questions? Get Involved? <a href="https://forum.moqui.org/?utm_source=moqui.org"  target="_blank" rel="noopener noreferrer">Join the Forum</a>
+                        Comments? Questions? Get Involved? <a href="https://forum.moqui.org/?utm_source=moqui.org" target="_blank" rel="noopener noreferrer">Join the Forum</a>
                     </p>
                 </div>
             </div>
